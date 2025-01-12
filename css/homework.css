@@ -1,30 +1,45 @@
-.container{
+.navbar li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
     width: 1024px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.blog-content{
+.blog-content {
     width: 80%;
     height: 200px;
     background: #eee;
     float: left;
 }
 
-.blog-image{
+.blog-image {
     width: 20%;
     height: 200px;
     background: yellow;
     float: left;
 }
 
-.blog-profile{
+.blog-profile {
     width: 50px;
     float: left;
-    display:block;
+    display: block;
 }
 
-.blog-name{
+.blog-name {
     float: left;
 }
